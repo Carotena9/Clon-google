@@ -1,0 +1,242 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Roboto;
+
+}
+
+a{
+    text-decoration: none
+}
+
+#header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-right-section{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-right-section a{
+    margin-right: 15px;
+}
+
+.micon{
+    background-image: url(grid-google.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    flex-grow: 70px;
+    cursor: pointer;
+}
+
+#imagen-usuario{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    /*order: 1;
+    background: blue;*/
+    background-image: url(https://lh3.googleusercontent.com/ogw/AAEL6shV1JAd39j5n9bUR1KIq9RmOzr7x6kHXQ8PVN5L=s32-c-mo);
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+main{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main1{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.main1 img {
+    width: 400px;
+ 
+}
+
+#input-search{
+    width: 700px;
+    border: none;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.main-search-cont{
+    width: 700px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    height: 40px;
+    width: 600px;
+    border: none;
+    outline: none;
+}
+
+.main-search-cont:hover{
+    box-shadow: 0 1px 6px 0 gray;
+}
+
+.magnifier{
+    background-image: url(magni.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+.smallic{
+    background-image: url(mic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.camera{
+    background-image: url(cam.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn-search{
+    width: 500px;
+    margin: auto;
+}
+
+.btn-search div{
+    display: inline-block;
+}
+
+#search{
+    height: 50px;
+    background-color: rgb(187, 187, 187);
+    border: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 6px;
+    padding: 0 15px;
+    margin-right: 10px;
+
+}
+
+#search:hover{
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 gray;
+}
+
+#lucky{
+    height: 50px;
+    background-color: rgb(187, 187, 187);
+    border: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 6px;
+    padding: 0 15px;
+    margin-right: 10px;
+}
+
+#lucky:hover{
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 gray;
+}
+
+.latinoam{
+    padding-top: 10px;
+    font-size: larger;
+}
+
+.latinoam ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    background-color: lightgrey;
+    border-top: none;
+    font-family: Roboto;
+
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    padding-left: 3%;
+    color: gray;
+    font-family: Roboto;
+}
+
+footer1{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: lightgray;
+    border-top: 1px solid gray;
+}
+
+footer1 ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 5px;
+}
+
+.footer-left{
+    justify-content: left;
+}
+
+.footer-right{
+    justify-content: right;
+}
+
+footer1 a {
+    margin: 10px;
+    color: gray;
+    
+}
